@@ -1,8 +1,54 @@
-#header {
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+body {
+    font-family: Arial, Helvetica, sans-serif;
 }
-.container1, .container2, .container3, .container4, .container5, .container6 {
-    text-align: center;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+#mainContainer {
+    justify-items: center;
+}
+
+#inputContainer {
+    margin-bottom: 10px;
+}
+
+.task {
+    display: flex;
+    column-gap: 10px;
+    padding: 10px;
+    border-width: 2px;
+}
+p, button {
+    border-style: solid;
+    border-radius: 6px;
+    border-width: 1px;
+}
+.completeButton {
+    margin-left: 20px;
+    
+}
+
+button {
+    height: 27px;
+    margin: auto;
+    font-size: 15px;
+}
+
+p {
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#inputContainer {
+    display: flex;
+    column-gap: 10px;
+}
+input {
+    width: 211px;
+    padding: 5px;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px;
 }

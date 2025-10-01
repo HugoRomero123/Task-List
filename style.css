@@ -10,9 +10,6 @@ body {
     margin-bottom: 10px;
 }
 
-#taskContainer {
-}
-
 .task {
     display: flex;
     column-gap: 10px;
